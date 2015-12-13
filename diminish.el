@@ -177,14 +177,14 @@ to TO-WHAT if it's > 1 char long & doesn't already begin with a space."
                       "To what mode-line display: "
                       nil nil nil 'diminish-history-names)))
   (let ((minor (assq mode minor-mode-alist)))
-    (or minor (error "%S is not currently registered as a minor mode" mode))
-    (callf or to-what "")
-    (when (> (length to-what) 1)
-      (or (= (string-to-char to-what) ?\ )
-          (callf2 concat " " to-what)))
-    (or (assq mode diminished-mode-alist)
-        (push (copy-sequence minor) diminished-mode-alist))
-    (setcdr minor (list to-what))))
+    (when minor
+        (progn (callf or to-what "")
+               (when (> (length to-what) 1)
+                 (or (= (string-to-char to-what) ?\ )
+                     (callf2 concat " " to-what)))
+               (or (assq mode diminished-mode-alist)
+                   (push (copy-sequence minor) diminished-mode-alist))
+               (setcdr minor (list to-what))))))
 
 ;; But an image comes to me, vivid in its unreality, of a loon alone on his
 ;; forest lake, shrieking his soul out into a canopy of stars.  Alone this
