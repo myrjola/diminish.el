@@ -3,6 +3,7 @@
 ;; Copyright (C) 1998 Free Software Foundation, Inc.
 
 ;; Author: Will Mengarini <seldon@eskimo.com>
+;; Maintainer: Martin Yrjölä <martin.yrjola@gmail.com>
 ;; URL: <http://www.eskimo.com/~seldon>
 ;; Created: Th 19 Feb 98
 ;; Version: 0.44, Sa 23 Jan 99
