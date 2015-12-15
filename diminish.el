@@ -4,7 +4,7 @@
 
 ;; Author: Will Mengarini <seldon@eskimo.com>
 ;; Maintainer: Martin Yrjölä <martin.yrjola@gmail.com>
-;; URL: <http://www.eskimo.com/~seldon>
+;; URL: <https://github.com/myrjola/diminish.el>
 ;; Created: Th 19 Feb 98
 ;; Version: 0.44, Sa 23 Jan 99
 ;; Keywords: extensions, diminish, minor, codeprose
