@@ -1,4 +1,5 @@
 [![MELPA](https://melpa.org/packages/diminish-badge.svg)](https://melpa.org/#/diminish)
+[![MELPA Stable](http://stable.melpa.org/packages/diminish-badge.svg)](http://stable.melpa.org/#/diminish)
 
 # diminish.el
 
