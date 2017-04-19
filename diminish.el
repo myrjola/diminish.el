@@ -178,7 +178,8 @@ to TO-WHAT if it's > 1 char long & doesn't already begin with a space."
   (let ((minor (assq mode minor-mode-alist)))
     (when minor
         (progn (callf or to-what "")
-               (when (> (length to-what) 1)
+               (when (and (stringp to-what)
+                          (> (length to-what) 1))
                  (or (= (string-to-char to-what) ?\ )
                      (callf2 concat " " to-what)))
                (or (assq mode diminished-mode-alist)
