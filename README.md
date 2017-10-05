@@ -30,7 +30,7 @@ Quick start
 ```
 
 John Wiegley's
-[use-package](https://github.com/jwiegley/use-package#diminishing-minor-modes)
+[use-package](https://github.com/jwiegley/use-package#diminishing-and-delighting-minor-modes)
 macro also has support for diminish.el.
 
 Acknowledgments
