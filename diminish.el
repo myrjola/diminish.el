@@ -105,7 +105,7 @@
 
 ;;; Code:
 
-(eval-when-compile (require 'cl))
+(eval-when-compile (require 'cl-lib))
 
 (defvar diminish-must-not-copy-minor-mode-alist nil
   "Non-nil means loading diminish.el won't (copy-alist minor-mode-alist).
