@@ -1,3 +1,5 @@
+[![GNU ELPA](https://elpa.gnu.org/packages/diminish.svg)](https://elpa.gnu.org/packages/diminish.html)
+[![GNU-devel ELPA](https://elpa.gnu.org/devel/diminish.svg)](https://elpa.gnu.org/devel/diminish.html)
 [![MELPA](https://melpa.org/packages/diminish-badge.svg)](https://melpa.org/#/diminish)
 [![MELPA Stable](http://stable.melpa.org/packages/diminish-badge.svg)](http://stable.melpa.org/#/diminish)
 
@@ -42,6 +44,13 @@ Ref: [Emacs manual - The Data Structure of the Mode Line](https://www.gnu.org/so
 John Wiegley's
 [use-package](https://github.com/jwiegley/use-package#diminishing-and-delighting-minor-modes)
 macro also has support for diminish.el.
+
+Copyright Assignment
+====================
+
+Diminish is subject to the same [copyright assignment](https://www.fsf.org/licensing/contributor-faq) policy as GNU Emacs.
+
+Any [legally significant](https://www.gnu.org/prep/maintain/html_node/Legally-Significant.html#Legally-Significant) contributions can only be merged after the author has completed their paperwork. Please ask for the request form, and we'll send it to you.
 
 Acknowledgments
 ===============
