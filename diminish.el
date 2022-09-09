@@ -157,7 +157,7 @@ Interactively, enter (with completion) the name of any minor mode, followed
 on the next line by what you want it diminished to (default empty string).
 The response to neither prompt should be quoted.  However, in Lisp code,
 both args must be quoted, the first as a symbol, the second as a string,
-as in (diminish 'jiggle-mode \" Jgl\").
+as in (diminish \\='jiggle-mode \" Jgl\").
 
 The mode-line displays of minor modes usually begin with a space, so
 the modes' names appear as separate words on the mode line.  However, if
@@ -210,7 +210,7 @@ Interactively, enter (with completion) the name of any diminished mode (a
 mode that was formerly a minor mode on which you invoked \\[diminish]).
 To restore all diminished modes to minor status, answer `diminished-modes'.
 The response to the prompt shouldn't be quoted.  However, in Lisp code,
-the arg must be quoted as a symbol, as in (diminish-undo 'diminished-modes)."
+the arg must be quoted as a symbol, as in (diminish-undo \\='diminished-modes)."
   (interactive
    (list (read (completing-read
                 "Restore what diminished mode: "
